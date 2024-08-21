@@ -83,3 +83,79 @@
     
 </body>
 </html>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigate{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+ul,h1,li{
+    display: inline;}
+    li{
+    color: gray;
+    cursor: pointer;
+}
+ul{
+    padding-left: 25cm;
+}
+h1{
+    
+    color: gold;
+}
+
+li:hover{
+    color: white;
+}
+
+input{
+    display: inline-block;
+    margin: 20px;
+    width: 20cm;
+    padding: 10px; 
+}
+
+.search{
+    text-align: center;
+}
+ 
+ img{
+    width: 6cm;
+    height: 6cm;
+   
+ }
+ .box{
+    display: inline-block;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 6cm;
+    cursor: pointer ;
+ }
+.product{
+    text-align: center;
+} 
+.box:hover{
+    background-color: black;
+    color: white;
+}
+.about{
+    text-align: center;
+    padding: 30px;
+}
+.parag{
+    padding: 40px;
+}
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+html{
+    background-color: lightgray;
+}
